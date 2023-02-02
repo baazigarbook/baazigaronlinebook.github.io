@@ -333,6 +333,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: 25%;
 }
 .md_sites .md_sites_logo a img {
     max-width: 177px;
@@ -1078,11 +1079,25 @@ display: block;}
 }
 
 #navuslider{
-    /* margin-left: 17%; */
+    margin-left: 25%;
+}
+
+
+@media screen and (min-width:1650px){
+    #navuslider{
+        margin-left:35%;
+    }
+    .md_sites_logo{
+        margin-left:35%;
+
+    }
 }
 
 @media screen and (max-width:450px){
     #navuslider{
+        margin:0;
+    }
+    .md_sites_logo{
         margin:0;
     }
 }
