@@ -1163,6 +1163,6 @@ body{
 @media screen and (max-width:450px){
     
     .md_sites_logo{
-        margin:0;
+        margin:15% ;
     }
 }
