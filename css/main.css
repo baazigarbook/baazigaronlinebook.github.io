@@ -1146,3 +1146,23 @@ display: block;}
 body{
 	background-color: black !important ;
 }
+
+.md_sites_logo{
+    margin-left:25%;
+
+}
+
+@media screen and (min-width:1650px){
+    
+    .md_sites_logo{
+        margin-left:35%;
+
+    }
+}
+
+@media screen and (max-width:450px){
+    
+    .md_sites_logo{
+        margin:0;
+    }
+}
